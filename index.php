@@ -17,7 +17,7 @@
        </div>
           <div class="mb-3">
                   <label for="ecc" class="form-label">ECC</label>
-        <select name="ecc" class="form-select">
+        <select name="ecc" class="form-select" id='ecc'>
             <option value="L" selected=""  aria-label="Seleccionado por defecto">L - pequeño</option>
             <option value="M">M</option>
             <option value="Q">Q</option>
@@ -26,7 +26,7 @@
         </div>
         <div class="mb-3">
             <label for="size" class="form-label">size</label>
-       <select class="form-select" name="size">
+       <select class="form-select" name="size" id='size'>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -39,13 +39,17 @@
         <option value="10">10</option>
     </select>
         </div>
-        <input class='btn btn-primary' type="submit" value="Generar QR">
+   
+        <button class='btn btn-primary'  id="btnEnviar" type="button">
+        Generar QR
+            </button>
     </form>
        
-<div id='show_img'class="img-qr">
+<div id='respuesta'class="img-qr">
 
 </div>
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
