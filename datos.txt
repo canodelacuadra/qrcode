@@ -1,2 +1,0 @@
-Data: Me gusta Aranjuez, ECC: L, Edad: 4
-Data: Me gusta Malasaña, ECC: M, Size: 4
